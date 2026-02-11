@@ -1,7 +1,7 @@
 public class Uge2 {
 
         // Opgave 1: Rabatberegning
-        System.out.println("=== Opgave 1: Rabatberegning ===");
+        System.out.println("Opgave 1: Rabatberegning");
         double totalPrice = 850.0;
         double finalPrice = 0.0;
 
@@ -17,7 +17,7 @@ public class Uge2 {
         System.out.println("Slutpris: " + finalPrice + " kr");
 
         // Opgave 2: BMI-beregning
-        System.out.println("\n=== Opgave 2: BMI-beregning ===");
+        System.out.println("\n Opgave 2: BMI-beregning ");
         double weight = 68.0;
         double height = 175.0;
 
@@ -36,7 +36,7 @@ public class Uge2 {
         }
 
         // Opgave 3: Tidshilsner
-        System.out.println("\n=== Opgave 3: Tidshilsner ===");
+        System.out.println("\n Opgave 3: Tidshilsner");
         int hour = 8;
         System.out.println("Nuværende time: " + hour);
 
@@ -49,11 +49,11 @@ public class Uge2 {
         } else if (hour >= 18 && hour <= 21) {
             System.out.println("God Aften!");
         } else {
-            System.out.println("God Nat!");
+            System.out.println("Godnat!");
         }
 
         // Opgave 5: Shipping eligibility
-        System.out.println("\n=== Opgave 5: Shipping eligibility ===");
+        System.out.println("\n Opgave 5: Shipping eligibility");
         double orderPrice = 600.0;
         boolean isMember = true;
         double shippingCost;
@@ -72,7 +72,7 @@ public class Uge2 {
         System.out.println("Total beløb: " + (orderPrice + shippingCost) + " kr");
 
         // Opgave 8: Insurance premium calculator
-        System.out.println("\n=== Opgave 8: Insurance premium calculator ===");
+        System.out.println("\n Opgave 8: Insurance premium calculator");
         int age = 45;
         int accidents = 1;
         boolean riskZone = true;
@@ -98,7 +98,7 @@ public class Uge2 {
         System.out.println("Slutpræmie: " + totalPremium + " kr");
 
         // Opgave 10: Restaurant menu pricing
-        System.out.println("\n=== Opgave 10: Restaurant menu pricing ===");
+        System.out.println("\n Opgave 10: Restaurant menu pricing");
         String item = "steak";
         int quantity = 3;
         double itemPrice = 0.0;
@@ -134,12 +134,12 @@ public class Uge2 {
             System.out.println("Samlet pris: " + orderTotal + " kr");
 
             if (orderTotal > 150) {
-                System.out.println("Måske kvalificerer du til en rabat på næste ordre!");
+                System.out.println("Ikke kvalificeret til Rabat");
             }
         }
 
         // Opgave 15: Savings goal
-        System.out.println("\n=== Opgave 15: Savings goal ===");
+        System.out.println("\n Opgave 15: Savings goal");
         double savings = 0.0;
         double monthlyDeposit = 750.0;
         double goal = 15000.0;
@@ -158,7 +158,7 @@ public class Uge2 {
         System.out.println("\nMål nået efter " + months + " måneder");
 
         // Opgave 20: Savings calculator
-        System.out.println("\n=== Opgave 20: Savings calculator ===");
+        System.out.println("\n Opgave 20: Savings calculator");
         double monthlySavings = 1250.0;
         double totalSavings = 0.0;
 
@@ -173,7 +173,7 @@ public class Uge2 {
         System.out.println("\nSamlet efter 1 år: " + totalSavings + " kr");
 
         // Opgave 24: Grade statistics
-        System.out.println("\n=== Opgave 24: Grade statistics ===");
+        System.out.println("\n Opgave 24: Grade statistics");
         int[] scores = {88, 76, 92, 81, 65, 94, 79, 85};
 
         System.out.print("Karakterer: ");
@@ -205,7 +205,7 @@ public class Uge2 {
             }
         }
 
-        System.out.println("\n=== KARAKTERSTATISTIK ===");
+        System.out.println("\n KARAKTERSTATISTIK");
         System.out.println("Gennemsnit: " + String.format("%.2f", average));
         System.out.println("Højeste: " + max);
         System.out.println("Laveste: " + min);
@@ -213,7 +213,7 @@ public class Uge2 {
         System.out.println("Antal karakterer: " + scores.length);
 
         // Opgave 27: Shopping cart total
-        System.out.println("\n=== Opgave 27: Shopping cart total ===");
+        System.out.println("\n Opgave 27: Shopping cart total ");
         double[] prices = {349.95, 199.50, 129.99, 79.25, 45.75};
 
         System.out.print("Varer i indkøbskurv: ");
